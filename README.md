@@ -6,3 +6,12 @@ U folderu su 2 nova filea - ClassLibrary1.dll i .pdb, a ako izbrišemo .dll onda
 
 # Pitanje 2:
 Konzolna aplikacija je prikazala nov string jer pokretanje builda konzolne aplikacije automatski pokreće i build class library projekta.
+
+# Pitanje 3:
+Ispisuje se metoda iz PeroClassLibraryja: "Pero: Hello World".
+
+# Pitanje 4:
+U folderu se pojavljuje PeroClassLibrary.dll asemblij.
+
+# Pitanje 5:
+Aplikacija radi zbog toga što koristi .dll asemblij iz svog Bin/Debug foldera, a ne onaj koji smo mi postavili kao referencu - napravljen je novi .dll u Bin/Debug folderu gdje i traži .dll asemblij.

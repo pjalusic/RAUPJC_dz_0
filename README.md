@@ -15,3 +15,6 @@ U folderu se pojavljuje PeroClassLibrary.dll asemblij.
 
 # Pitanje 5:
 Aplikacija radi zbog toga što koristi .dll asemblij iz svog Bin/Debug foldera, a ne onaj koji smo mi postavili kao referencu - napravljen je novi .dll u Bin/Debug folderu gdje i traži .dll asemblij.
+
+# Pitanje 6:
+Build proces je uspio, točnije ponovno je dohvatio sve potrebne podatke i smjestio ih u packages direktorij.
